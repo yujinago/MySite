@@ -145,16 +145,103 @@ a {
     background-position: center;
 }
 
+.strength-group {
+    display: flex;
+    width: 980px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+
+.strength {
+    width: 320px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.strength:last-child {
+    margin-right: 0;
+}
+
+.strength-title {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.strength-text {
+    font-size: 16px;
+    text-align: left;
+}
+
+
 #profile {
     background-color: #ECEFF1;
 }
 
+.profile-group {
+    display: flex;
+    padding: 30px 0 90px 0;
+}
 
+.left-content {
+    width: 50%;
+}
 
+.my-face {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(img/my-icon.jpg);
+}
 
+.right-content {
+    width: 50%;
+}
 
+.description-title {
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+}
 
+.description-title:first-child {
+    margin-top: 0;
+}
 
+.description-text {
+    font-size: 16px;
+}
+
+.contact-group {
+    display: flex;
+    width: 800px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+
+.left-contact-content {
+    width: 130px;
+    margin: 0 auto;
+}
+
+.link-text {
+    text-decoration: underline;
+    color: #212121;
+}
+
+.right-contact-content {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.right-contact-content .fa-brands {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.right-contact-content .fa-brands:last-child {
+    margin-right: 0;
+}
 
 footer {
     width: 100%;
